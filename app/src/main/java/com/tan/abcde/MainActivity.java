@@ -12,9 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // vừa code vừa ghi chú sẽ giúp code dễ hơn cho tất cả mọi người
-        Toast.makeText(this, "hello how are you ?", Toast.LENGTH_SHORT).show();
-        tv = findViewById(R.id.tv);
-        tv.setText("hello what is your name");
+        Toast.makeText(this, "abcde", Toast.LENGTH_SHORT).show();
     }
 }
